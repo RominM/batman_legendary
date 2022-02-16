@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './style/main.scss';
-import Home from './pages/Home';
+import Main from './pages/Main';
 import Header from './components/layout/Header';
 // import Rain from './components/Rain';
 
@@ -11,7 +11,7 @@ ReactDOM.render(
     <React.StrictMode>
         <Header />
         {/* <Rain /> */}
-        <Home />
+        <Main />
     </React.StrictMode>,
     document.getElementById('root')
 );
