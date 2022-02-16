@@ -1,0 +1,21 @@
+// FONT
+
+@font-face {
+    font-family: 'batmfa';
+    src: url('./../../../assets/fonts/batman_forever/batmfa__.ttf')
+        format(truetype);
+}
+
+@font-face {
+    font-family: 'batgoth-reg';
+    src: url('./../../../assets/fonts/gotham-nights-font/GothamNights-e49g.ttf')
+        format(truetype);
+}
+
+$batForever: 'batmfa', sans-serif;
+$batGoth: 'batgot-reg', sans-serif;
+
+// COLOR
+
+$Black: #000;
+$White: #fff;
