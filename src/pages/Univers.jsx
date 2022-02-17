@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Univers = () => {
-  return (
-    <div>Univers</div>
-  )
-}
+  return <div style={{ color: '#fff' }}>UNIVERS</div>;
+};
 
-export default Univers
+export default Univers;

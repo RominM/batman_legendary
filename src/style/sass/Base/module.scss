@@ -1,19 +1,23 @@
 // FONT
 
 @font-face {
-    font-family: 'batmfa';
-    src: url('./../../../assets/fonts/batman_forever/batmfa__.ttf')
-        format(truetype);
+  font-family: 'batmfa';
+  src: url('./../../../assets/fonts/batman_forever/batmfa__.ttf');
 }
 
 @font-face {
-    font-family: 'batgoth-reg';
-    src: url('./../../../assets/fonts/gotham-nights-font/GothamNights-e49g.ttf')
-        format(truetype);
+  font-family: 'batgoth';
+  src: url('./../../../assets/fonts/gotham-nights-font/GothamNights-e49g.ttf');
 }
 
-$batForever: 'batmfa', sans-serif;
-$batGoth: 'batgot-reg', sans-serif;
+@font-face {
+  font-family: 'dirtyjoke';
+  src: url('./../../../assets/fonts/diediedie/DIEDIEDI.TTF');
+}
+
+$BatForever: 'batmfa', Arial, sans-serif;
+$BatGoth: 'batgoth', Arial, sans-serif;
+$DirtyJoke: 'dirtyjoke', Arial, sans-serif;
 
 // COLOR
 

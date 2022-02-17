@@ -1,19 +1,28 @@
 @import './../Base/module.scss';
 
 header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 100px;
-    background-color: #000;
-    color: $White;
-    font-family: $batForever;
-    line-height: 100px;
-    nav {
-        width: 75%;
-        ul {
-            display: flex;
-            justify-content: space-around;
-        }
+  // position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  color: $White;
+  line-height: 100px;
+  z-index: 999;
+  h1 {
+    font-size: 3em;
+    margin-left: 50px;
+  }
+  nav {
+    width: 75%;
+    font-size: 2em;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      a {
+        color: $White;
+      }
     }
+  }
 }

@@ -1,0 +1,20 @@
+@import './../Base/module.scss';
+
+.slider {
+  .super-ul {
+    display: flex;
+    list-style: none;
+    .super-li {
+      width: auto;
+      margin: 50px;
+      font-size: 4em;
+      color: $White;
+    }
+    .batman_card {
+      font-family: $BatForever;
+    }
+    .joker_card {
+      font-family: $DirtyJoke;
+    }
+  }
+}

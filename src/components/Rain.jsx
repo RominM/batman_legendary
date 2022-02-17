@@ -1,5 +1,5 @@
 import React from 'react';
-
+/*
 const Rain = () => {
     const makeItRain = () => {
         //clear out everything
@@ -79,3 +79,4 @@ const Rain = () => {
 };
 
 export default Rain;
+*/

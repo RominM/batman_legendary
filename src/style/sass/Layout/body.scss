@@ -1,29 +1,32 @@
+@import './../Base/module.scss';
+
 html {
+  height: 100%;
+  width: 100%;
+  body {
+    position: relative;
     height: 100%;
-    width: 100%;
-    body {
-        position: relative;
-        height: 100%;
-        margin: 0;
-        overflow: hidden;
-        background: rgb(3, 2, 24);
-        background: linear-gradient(
-            103deg,
-            rgba(3, 2, 24, 1) 0%,
-            rgba(10, 10, 7, 1) 30%,
-            rgba(68, 71, 29, 1) 68%,
-            rgba(246, 255, 147, 1) 76%,
-            rgba(87, 92, 32, 1) 84%,
-            rgba(0, 0, 0, 1) 100%
-        );
-        #root {
-            border: solid;
-            width: 100%;
-            height: 100vh;
-            cursor: url('./../../../assets/images/bat_cursor.png'), auto;
-            background: url('./../../../assets/images/New-York-Skyline-City-Transparent-PNG.png')
-                no-repeat;
-            background-position: bottom;
-        }
+    margin: 0;
+    overflow: hidden;
+    font-family: $BatGoth;
+    background: rgb(3, 2, 24);
+    background: linear-gradient(
+      103deg,
+      rgba(3, 2, 24, 1) 0%,
+      rgba(10, 10, 7, 1) 30%,
+      rgba(68, 71, 29, 1) 68%,
+      rgba(246, 255, 147, 1) 76%,
+      rgba(87, 92, 32, 1) 84%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    #root {
+      border: solid;
+      width: 100%;
+      height: 100vh;
+      cursor: url('./../../../assets/images/bat_cursor.png'), auto;
+      background: url('./../../../assets/images/New-York-Skyline-City-Transparent-PNG.png')
+        no-repeat;
+      background-position: bottom;
     }
+  }
 }
