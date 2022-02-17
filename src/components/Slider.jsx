@@ -9,7 +9,7 @@ const Slider = () => {
         {characters.map((character) => (
           <Link to={'/character/' + character.super} key={character.id}>
             <li className={character.super + '_card super-li'}>
-              <span>{character.super}</span>
+              <span>{character.title}</span>
             </li>
           </Link>
         ))}

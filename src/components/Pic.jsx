@@ -1,16 +1,12 @@
 import React from 'react';
+import characters from './../data/data.json';
 
 const Pic = (props) => {
-  //   const children = props.children;
-  const superName = props.hero;
-  const pic = props.picture;
   return (
     <div>
-      <div class="hello">
-        <img src={pic} alt={superName} />
+      <div className="hello">
+        <img src={characters.picture} alt={characters.super} />
       </div>
-      <p>{superName}</p>
-      PIC
     </div>
   );
 };

@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "bruce thomas wayne",
+    "title": "Batman",
     "super": "batman",
     "aliases": [
       "bruce wayne",
@@ -33,6 +34,7 @@
   {
     "id": 2,
     "name": "unknown",
+    "title": "Joker",
     "super": "joker",
     "aliases": [
       "clown prince of crime",
@@ -63,5 +65,25 @@
       "gotham's nutjob"
     ],
     "picture": "./../assets/images/joker/joker.png"
+  },
+  {
+    "id": 3,
+    "name": "edward nigma",
+    "title": "n?gma",
+    "super": "nygma",
+    "aliases": [
+      "edward nigma",
+      "the prince of puzzles",
+      "quizmaster",
+      "e. nigma",
+      "edward nashton",
+      "arthur wynne",
+      "the crown prince of conundrums",
+      "wizard of quiz",
+      "the puzzle king",
+      "conundrum champion",
+      "mockingbird"
+    ],
+    "picture": "./../assets/images/nygma/nygma.jpg"
   }
 ]
