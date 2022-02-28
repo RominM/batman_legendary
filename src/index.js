@@ -11,6 +11,8 @@ import Characters from './pages/Characters';
 import About from './pages/About';
 import Univers from './pages/Univers';
 import Error from './pages/Error';
+import TestChara from './pages/Character';
+import Character from './pages/Character';
 // import Rain from './components/Rain';
 
 // import reportWebVitals from './reportWebVitals';
@@ -23,6 +25,7 @@ ReactDOM.render(
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/characters" element={<Characters />} />
+          <Route path="character/:id" element={<Character />} />
           <Route path="/univers" element={<Univers />} />
           <Route path="/about" element={<About />} />
           <Route path="/not-found" element={<Error />} />
