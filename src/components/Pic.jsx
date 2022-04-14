@@ -5,7 +5,7 @@ const Pic = (props) => {
   console.log(children.picture);
   return (
     <div>
-      <img src={children.picture} alt={'image de ' + children.super} />
+      <img src={children.picture} alt={'image de ' + children.superName} />
     </div>
   );
 };

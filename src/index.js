@@ -11,11 +11,6 @@ import Characters from './pages/Characters';
 import About from './pages/About';
 import Univers from './pages/Univers';
 import Error from './pages/Error';
-import TestChara from './pages/Character';
-import Character from './pages/Character';
-// import Rain from './components/Rain';
-
-// import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -25,7 +20,6 @@ ReactDOM.render(
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/characters" element={<Characters />} />
-          <Route path="character/:id" element={<Character />} />
           <Route path="/univers" element={<Univers />} />
           <Route path="/about" element={<About />} />
           <Route path="/not-found" element={<Error />} />
@@ -36,8 +30,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-// reportWebVitals();

@@ -3,7 +3,7 @@
     "id": "1",
     "name": "bruce thomas wayne",
     "title": "Batman",
-    "super": "batman",
+    "superName": "batman",
     "aliases": [
       "bruce wayne",
       "the caped crusader",
@@ -35,7 +35,7 @@
     "id": "2",
     "name": "unknown",
     "title": "Joker",
-    "super": "joker",
+    "superName": "joker",
     "aliases": [
       "clown prince of crime",
       "harlequin of hate",
@@ -70,7 +70,7 @@
     "id": "3",
     "name": "edward nigma",
     "title": "n?gma",
-    "super": "nygma",
+    "superName": "nygma",
     "aliases": [
       "edward nigma",
       "the prince of puzzles",
